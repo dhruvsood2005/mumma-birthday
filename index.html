@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#6f1731">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="description" content="A birthday card for Mumma, made with love by Dhruv.">
+  <title>Happy Birthday, Mumma</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <div class="petal-field" id="petal-field" aria-hidden="true"></div>
+
+  <section class="cover" id="cover" aria-labelledby="cover-title">
+    <div class="cover-card">
+      <div class="feather" aria-hidden="true">
+        <svg viewBox="0 0 120 170" role="img">
+          <path d="M59 158C54 118 59 83 70 48"/>
+          <path d="M69 47C55 29 61 11 79 9C99 7 108 27 95 44C87 55 75 58 69 47Z"/>
+          <path d="M73 43C66 34 68 23 78 21C89 19 96 29 90 38C85 46 77 48 73 43Z"/>
+          <path d="M73 62C53 56 39 47 31 34M68 78C46 76 28 69 17 56M64 96C43 98 25 96 10 87M61 114C43 120 28 123 13 119M59 133C42 140 31 148 24 157"/>
+          <path d="M71 62C88 55 101 47 110 35M67 80C84 78 99 70 110 60M63 99C79 100 94 97 108 90M61 117C77 123 89 125 103 122M59 136C73 143 83 151 88 160"/>
+        </svg>
+      </div>
+      <p class="eyebrow">2 NOVEMBER 2026</p>
+      <h1 id="cover-title">For<br><em>Mumma</em></h1>
+      <p class="cover-note">A little birthday card, made with a lot of love.</p>
+      <button class="open-button" id="open-card" type="button" aria-controls="birthday-card">
+        Open your card
+        <span aria-hidden="true">♡</span>
+      </button>
+    </div>
+  </section>
+
+  <main class="birthday-card" id="birthday-card" tabindex="-1" aria-hidden="true">
+    <header class="card-header">
+      <div>
+        <p class="eyebrow">FORTY NINE YEARS OF YOU</p>
+        <h2>Happy Birthday,<br><em>Mumma.</em></h2>
+      </div>
+      <span class="rose-mark" aria-hidden="true">❀</span>
+    </header>
+
+    <figure class="hero-photo">
+      <img src="./assets/mumma-and-baby-dhruv.jpg" alt="Mumma holding Dhruv as a baby in a park">
+      <figcaption>From your arms then to your guidance now.</figcaption>
+    </figure>
+
+    <section class="letter" aria-label="Birthday message">
+      <p class="dear">Dear Mumma,</p>
+      <p>Thank you for the love you pour into our family every single day. Your delicious food, your care, your advice and all the small things you quietly do hold so much of our life together.</p>
+      <p>I admire how disciplined and spiritual you are, and how you always keep God at the centre of everything. You encourage all of us to become better people and to grow closer to Krishna.</p>
+      <p>You care for us, cook for us, love us and still work as a teacher to help support our home. I hope you know how deeply appreciated all of it is, even when we do not say it enough.</p>
+      <blockquote>
+        May Krishna always bless you with the same peace, strength and love that you give to everyone around you.
+      </blockquote>
+    </section>
+
+    <section class="memory-strip" aria-label="Family memories">
+      <img src="./assets/mumma-and-papa.jpg" alt="Mumma and Papa smiling together">
+      <img src="./assets/mumma-at-home.jpg" alt="Mumma sharing a happy moment at home">
+      <img src="./assets/mumma-family-day.jpg" alt="Mumma with family and friends at a festival">
+      <img src="./assets/mumma-family-generations.jpg" alt="Mumma with family across three generations">
+    </section>
+
+    <footer class="card-footer">
+      <p>I love you. Happy birthday, Mumma.</p>
+      <p class="signature">Love, Dhruv</p>
+      <button class="again-button" id="read-again" type="button">Read again</button>
+    </footer>
+  </main>
+
+  <script src="./script.js"></script>
+</body>
+</html>
